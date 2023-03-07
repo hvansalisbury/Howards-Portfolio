@@ -1,5 +1,4 @@
 import './App.css';
-import BucketList from './components/BucketList';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import ContactForm from './components/ContactForm';
@@ -16,7 +15,7 @@ const styles = {
 
 function App() {
 
-  const [currentTab, setCurrentTab] = useState('AboutMe');
+  const [currentTab, setCurrentTab] = useState('about');
 
   const renderTab = () => {
     switch (currentTab) {
@@ -28,8 +27,8 @@ function App() {
         return <Portfolio />;
       case 'resume':
         return <Resume />;
-      default:
-        return <AboutMe />
+      // default:
+      //   return <AboutMe />;
     }
   }
 

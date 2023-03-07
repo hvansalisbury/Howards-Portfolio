@@ -39,6 +39,7 @@ const styles = {
 function Portfolio() {
   const projects = [
     {
+      id: '0',
       name: 'Blog',
       info: 'This is a basic blog site where users can log in, write posts, and comment on other posts.',
       picture: blog,
@@ -47,6 +48,7 @@ function Portfolio() {
       link: 'https://hvansalisbury.github.io/Howards-Portfolio/',
     },
     {
+      id: '1',
       name: 'Quiz Cr8r',
       info: 'Quiz creating app that allows user to create and take quizzes.',
       picture: quizcr8r,
@@ -55,6 +57,7 @@ function Portfolio() {
       link: 'https://intense-forest-76320.herokuapp.com/',
     },
     {
+      id: '2',
       name: 'Word Search Tool',
       info: 'A tool to help you find words. This will return synonyms, rhymes, and antonyms as well as pronunciations and definitions.',
       picture: wordsearch,
@@ -63,6 +66,7 @@ function Portfolio() {
       link: 'https://cmcclay77.github.io/super-team-project/',
     },
     {
+      id: '3',
       name: '5-day Weather Forecast',
       info: 'A weather forecast app that allows you to search for a city and returns the forecast.',
       picture: weatherforecast,
@@ -76,7 +80,7 @@ function Portfolio() {
     <section style={styles.section}>
       <div style={styles.container}>
         {projects.map((project, i) =>
-          <div style={styles.card}>
+          <div style={styles.card} key={project.id}>
             <img
               alt={project.name}
               className="img"

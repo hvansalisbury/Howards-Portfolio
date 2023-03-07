@@ -218,3 +218,8 @@ p {
 #root {
   height: 100vh;
 }
+
+.active {
+  color: navy !important;
+  background: whitesmoke !important;
+}
