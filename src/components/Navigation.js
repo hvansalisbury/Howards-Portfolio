@@ -6,7 +6,7 @@ function Navigation(props) {
     return (
         <nav>
             <ul className="d-flex">
-                <li className={currentTab === "aboutMe" ? "active list-group-item" : "list-group-item"}
+                <li className={currentTab === "about" ? "active list-group-item" : "list-group-item"}
                     onClick={() => setCurrentTab("aboutMe")}>
                         about me
                 </li>
