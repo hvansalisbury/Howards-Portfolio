@@ -5,7 +5,7 @@ function Header(props) {
     const { currentTab, setCurrentTab } = props;
 
     return (
-        <header className='d-flex justify-content-between align-items-center bg-secondary py-5'>
+        <header className='d-flex justify-content-between align-items-center bg-secondary py-3'>
             <div className='ps-2'>
                 <h1>Howard's Portfolio</h1>
             </div>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const styles = {
   container: {
@@ -12,7 +12,8 @@ const styles = {
   section: {
     display: 'flex',
     height: '100%',
-    padding: '1em 0px 0px 80px'
+    padding: '1em 0px 80px 0px',
+    justifyContent: 'center',
   },
   button: {
     padding: '2px'

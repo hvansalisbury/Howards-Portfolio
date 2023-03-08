@@ -36,6 +36,14 @@ ul {
 .list-group-item {
   color: #fff !important;
   margin-right: 1em;
+  border-radius: 15px !important;
+  padding: 0px 5px !important;
+}
+
+.list-group-item:hover {
+  cursor: pointer;
+  color: #149fff !important;
+  transition: .3s;
 }
 
 h3 {

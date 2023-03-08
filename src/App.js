@@ -7,12 +7,6 @@ import Portfolio from './components/Portfolio';
 import Resume from './components/Resume'
 import { useState } from 'react';
 
-const styles = {
-  body: {
-    height: '100%'
-  }
-}
-
 function App() {
 
   const [currentTab, setCurrentTab] = useState('about');
@@ -27,20 +21,20 @@ function App() {
         return <Portfolio />;
       case 'resume':
         return <Resume />;
-      // default:
-      //   return <AboutMe />;
+      default:
+        return <AboutMe />;
     }
   }
 
   return (
-    <div style={styles.body}>
+    <div>
       <div>
         <Header 
           currentTab={currentTab}
           setCurrentTab={setCurrentTab}
         />
       </div>
-      <div style={styles.body}>
+      <div>
         {renderTab()}
       </div>
       <div>
