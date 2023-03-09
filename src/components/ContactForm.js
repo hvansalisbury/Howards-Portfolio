@@ -35,12 +35,6 @@ function ContactForm(props) {
     ? setErrorMessage(`${inputType} is invalid!`)
     : setErrorMessage('')
     }
-
-    // if (inputValue === '') {
-    //   setErrorMessage(`${inputType} is required!`)
-    // } else {
-    //   setErrorMessage('')
-    // }
   }
 
   const handleSubmit = (e) => {
@@ -61,8 +55,6 @@ function ContactForm(props) {
     setMessage('');
   };
 
-  // First we check to see if "edit" prop exists. If not, we render the normal form
-  // If the prop "edit" exists, we know to render the update form instead
   return (
     <div className='d-flex align-items-center flex-column'>
       <form className=" m-2 form d-flex flex-column w-50" onSubmit={handleSubmit}>
