@@ -96,7 +96,7 @@ function ContactForm(props) {
         <button className="my-2 p-2 fw-bold form-button rounded" onClick={handleSubmit}>submit</button>
       </form>
       {errorMessage && (
-        <div>
+        <div className='px-2'>
           <p className='error-text fs-4'>{errorMessage}</p>
         </div>
       )}

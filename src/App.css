@@ -27,10 +27,12 @@ ul {
   padding: 0px 5px !important;
 }
 
-.list-group-item:hover {
-  cursor: pointer;
-  color: #149fff !important;
-  transition: .4s;
+@media (hover: hover) {
+  .list-group-item:hover {
+    cursor: pointer;
+    color: #149fff !important;
+    transition: .4s;
+  }
 }
 
 h3 {
@@ -50,13 +52,31 @@ p {
   background: whitesmoke !important;
 }
 
-button:hover {
-  background: linear-gradient(#149fff,whitesmoke);
-  color: black;
-  transition: .4s;
+@media (hover: hover) {
+  button:hover {
+    background: linear-gradient(#149fff,whitesmoke);
+    color: black;
+    transition: .4s;
+  }
 }
 
-.image-link:hover {
-  opacity: .5;
-  transition: .4s;
+@media (hover: hover) { 
+  .image-link:hover {
+    opacity: .5;
+    transition: .4s;
+  }
+}
+
+ul {
+  padding-left: 0 !important;
+}
+
+@media screen and (max-width: 660px) {
+  .cards {
+    width: 100% !important;
+  }
+
+  header {
+    flex-direction: column !important;
+  }
 }

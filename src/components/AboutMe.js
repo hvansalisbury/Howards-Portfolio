@@ -3,7 +3,7 @@ import howard from '../assets/images/Howard1.jpg'
 
 function AboutMe() {
   return (
-    <div className='d-flex flex-column align-items-center'>
+    <div className='d-flex flex-column align-items-center pb-5'>
       <h2>About Me</h2>
       <a href='https://github.com/hvansalisbury'>
         <img src={howard} alt="Howard Van Salisbury" height="200" width="200" className="rounded-circle border border-5 border-secondary image-link"></img>
