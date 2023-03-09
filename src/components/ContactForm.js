@@ -21,20 +21,40 @@ function ContactForm(props) {
     };
   };
 
+  const handleBlur = (e) => {
+    const { target } = e;
+    const inputType = target.name;
+    const inputValue = target.value;
+
+    inputValue === ''
+    ? setErrorMessage(`${inputType} is required!`)
+    : setErrorMessage('')
+  
+    if (inputType === 'email') {
+      !validateEmail(email)
+    ? setErrorMessage(`${inputType} is invalid!`)
+    : setErrorMessage('')
+    }
+
+    // if (inputValue === '') {
+    //   setErrorMessage(`${inputType} is required!`)
+    // } else {
+    //   setErrorMessage('')
+    // }
+  }
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
     if (!email || !name || !message) {
       setErrorMessage('Email, name, and message are all required!');
       return;
-    }
+    };
 
     if (!validateEmail(email)) {
       setErrorMessage('Email is invalid');
       return;
     }
-
-    console.log(errorMessage)
 
     setName('');
     setEmail('');
@@ -55,6 +75,7 @@ function ContactForm(props) {
           placeholder="your name"
           className="name-input rounded p-1"
           onChange={handleChange}
+          onBlur={handleBlur}
           required
         />
         <label>email:</label>
@@ -65,6 +86,7 @@ function ContactForm(props) {
           placeholder="email"
           className="email-input rounded p-1"
           onChange={handleChange}
+          onBlur={handleBlur}
           required
         />
         <label>message:</label>
@@ -76,6 +98,7 @@ function ContactForm(props) {
           placeholder="message"
           className="message-input rounded p-1"
           onChange={handleChange}
+          onBlur={handleBlur}
           required
         />
         <button className="my-2 p-1 fw-bold form-button" onClick={handleSubmit}>submit</button>
