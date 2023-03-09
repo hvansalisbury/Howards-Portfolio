@@ -7,7 +7,6 @@ function ContactForm(props) {
   const [message, setMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
 
-
   const handleChange = (e) => {
     const { target } = e;
     const inputType = target.name;
@@ -25,15 +24,17 @@ function ContactForm(props) {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (!validateEmail(email) || !name) {
-      setErrorMessage('Email or name is invalid');
+    if (!email || !name || !message) {
+      setErrorMessage('Email, name, and message are all required!');
       return;
     }
 
-    if (!message) {
-      setErrorMessage('Message is invalid');
+    if (!validateEmail(email)) {
+      setErrorMessage('Email is invalid');
       return;
     }
+
+    console.log(errorMessage)
 
     setName('');
     setEmail('');
@@ -43,7 +44,7 @@ function ContactForm(props) {
   // First we check to see if "edit" prop exists. If not, we render the normal form
   // If the prop "edit" exists, we know to render the update form instead
   return (
-    <div className='d-flex justify-content-center'>
+    <div className='d-flex align-items-center flex-column'>
       <form className=" m-2 form d-flex flex-column w-50" onSubmit={handleSubmit}>
         <h2 className="text-center ">Contact Me</h2>
         <label>name:</label>
@@ -79,8 +80,13 @@ function ContactForm(props) {
         />
         <button className="my-2 p-1 fw-bold form-button" onClick={handleSubmit}>submit</button>
       </form>
+      {errorMessage && (
+        <div>
+          <p className='error-text fs-4'>{errorMessage}</p>
+        </div>
+      )}
     </div>
-  )
-}
+  );
+};
 
 export default ContactForm;

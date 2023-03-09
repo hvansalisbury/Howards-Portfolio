@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.dc0822a2.css",
-    "main.js": "/static/js/main.c3d0149e.js",
+    "main.css": "/static/css/main.16703e3f.css",
+    "main.js": "/static/js/main.bb37f3f2.js",
     "static/media/WordSearch.png": "/static/media/WordSearch.d826407e470653092071.png",
     "static/media/WeatherForecast.png": "/static/media/WeatherForecast.a0682e15945b6f1107c1.png",
+    "static/media/WorkDayScheduler.png": "/static/media/WorkDayScheduler.255fb3bef37950cd15dc.png",
     "static/media/QuizCr8r.png": "/static/media/QuizCr8r.b15dd84fb8b85080952d.png",
     "static/media/Blog.png": "/static/media/Blog.e8af98e402bd81949104.png",
+    "static/media/NotesKeep.png": "/static/media/NotesKeep.42efc56eff5535cb3028.png",
+    "static/media/Resume.pdf": "/static/media/Resume.5ea7b58c89db8e16cb93.pdf",
     "index.html": "/index.html",
-    "main.dc0822a2.css.map": "/static/css/main.dc0822a2.css.map",
-    "main.c3d0149e.js.map": "/static/js/main.c3d0149e.js.map"
+    "main.16703e3f.css.map": "/static/css/main.16703e3f.css.map",
+    "main.bb37f3f2.js.map": "/static/js/main.bb37f3f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc0822a2.css",
-    "static/js/main.c3d0149e.js"
+    "static/css/main.16703e3f.css",
+    "static/js/main.bb37f3f2.js"
   ]
 }
