@@ -93,7 +93,7 @@ function ContactForm(props) {
           onBlur={handleBlur}
           required
         />
-        <button className="my-2 p-1 fw-bold form-button" onClick={handleSubmit}>submit</button>
+        <button className="my-2 p-2 fw-bold form-button rounded" onClick={handleSubmit}>submit</button>
       </form>
       {errorMessage && (
         <div>

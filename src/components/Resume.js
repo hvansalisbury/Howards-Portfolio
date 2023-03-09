@@ -17,7 +17,8 @@ const styles = {
     justifyContent: 'center',
   },
   button: {
-    padding: '2px'
+    padding: '4px',
+    borderRadius: "5px"
   },
   list: {
     listStyleType: 'none',

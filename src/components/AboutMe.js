@@ -1,12 +1,12 @@
 import React from 'react';
-import howard from '../assets/images/'
+import howard from '../assets/images/Howard1.jpg'
 
 function AboutMe() {
   return (
     <div className='d-flex flex-column align-items-center'>
       <h2>About Me</h2>
       <a href='https://github.com/hvansalisbury'>
-        <img src={howard} alt="Howard Van Salisbury" height="200" width="200" className='rounded-circle border border-5 border-secondary'></img>
+        <img src={howard} alt="Howard Van Salisbury" height="200" width="200" className="rounded-circle border border-5 border-secondary image-link"></img>
       </a>
       <p className='w-50 m-2'>
         Hello World! I'm Howard Van Salisbury. I am a developer who learned from the Rutgers Full-Stack

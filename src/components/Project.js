@@ -1,5 +1,4 @@
 import React from 'react';
-import Project from './Project';
 import quizcr8r from '../assets/images/QuizCr8r.png';
 import blog from '../assets/images/Blog.png';
 import weatherforecast from '../assets/images/WeatherForecast.png';
@@ -40,7 +39,7 @@ const styles = {
 };
 
 
-function Portfolio() {
+function Project() {
   const projects = [
     {
       id: '0',
@@ -123,4 +122,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default Project;
