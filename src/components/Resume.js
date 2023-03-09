@@ -1,11 +1,12 @@
 import React from 'react';
+import resume from '../assets/images/Resume.pdf'
 
 const styles = {
   container: {
     display: 'flex',
     alignItems: 'center',
     flexDirection: 'column',
-    width: "45%",
+    width: "30%",
     flexWrap: 'wrap',
     color: 'white',
   },
@@ -33,7 +34,9 @@ function Resume() {
     <section style={styles.section}>
       <div style={styles.container}>
         <h3 style={styles.heading}>Résumé</h3>
+        <a href={resume} target="_blank" rel="noopener noreferrer">
         <button style={styles.button}>Download My Résumé</button>
+        </a>
       </div>
       <div style={styles.container}>
         <h3 style={styles.heading}>Skills</h3>
