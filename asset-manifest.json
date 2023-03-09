@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/howards-portfolio/static/css/main.16703e3f.css",
+    "main.js": "/howards-portfolio/static/js/main.b6aefec6.js",
+    "static/media/WordSearch.png": "/howards-portfolio/static/media/WordSearch.d826407e470653092071.png",
+    "static/media/WeatherForecast.png": "/howards-portfolio/static/media/WeatherForecast.a0682e15945b6f1107c1.png",
+    "static/media/WorkDayScheduler.png": "/howards-portfolio/static/media/WorkDayScheduler.255fb3bef37950cd15dc.png",
+    "static/media/QuizCr8r.png": "/howards-portfolio/static/media/QuizCr8r.b15dd84fb8b85080952d.png",
+    "static/media/Blog.png": "/howards-portfolio/static/media/Blog.e8af98e402bd81949104.png",
+    "static/media/NotesKeep.png": "/howards-portfolio/static/media/NotesKeep.42efc56eff5535cb3028.png",
+    "static/media/Resume.pdf": "/howards-portfolio/static/media/Resume.5ea7b58c89db8e16cb93.pdf",
+    "index.html": "/howards-portfolio/index.html",
+    "main.16703e3f.css.map": "/howards-portfolio/static/css/main.16703e3f.css.map",
+    "main.b6aefec6.js.map": "/howards-portfolio/static/js/main.b6aefec6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16703e3f.css",
+    "static/js/main.b6aefec6.js"
+  ]
+}
