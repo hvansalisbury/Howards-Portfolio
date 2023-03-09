@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/Howards-Portfolio/static/css/main.16703e3f.css",
-    "main.js": "/Howards-Portfolio/static/js/main.c54c90fe.js",
+    "main.css": "/Howards-Portfolio/static/css/main.afa89281.css",
+    "main.js": "/Howards-Portfolio/static/js/main.b1f05230.js",
     "static/media/WordSearch.png": "/Howards-Portfolio/static/media/WordSearch.d826407e470653092071.png",
     "static/media/WeatherForecast.png": "/Howards-Portfolio/static/media/WeatherForecast.a0682e15945b6f1107c1.png",
+    "static/media/Howard1.jpg": "/Howards-Portfolio/static/media/Howard1.b09bcd6f037b0615e9cb.jpg",
     "static/media/WorkDayScheduler.png": "/Howards-Portfolio/static/media/WorkDayScheduler.255fb3bef37950cd15dc.png",
     "static/media/QuizCr8r.png": "/Howards-Portfolio/static/media/QuizCr8r.b15dd84fb8b85080952d.png",
     "static/media/Blog.png": "/Howards-Portfolio/static/media/Blog.e8af98e402bd81949104.png",
     "static/media/NotesKeep.png": "/Howards-Portfolio/static/media/NotesKeep.42efc56eff5535cb3028.png",
     "static/media/Resume.pdf": "/Howards-Portfolio/static/media/Resume.5ea7b58c89db8e16cb93.pdf",
+    "static/media/github-mark.svg": "/Howards-Portfolio/static/media/github-mark.6fa18895f6e6c7772cab7049f7e05f59.svg",
+    "static/media/youtube-svgrepo-com.svg": "/Howards-Portfolio/static/media/youtube-svgrepo-com.81b9f73c5765cd8107eb0449650a2160.svg",
     "index.html": "/Howards-Portfolio/index.html",
-    "main.16703e3f.css.map": "/Howards-Portfolio/static/css/main.16703e3f.css.map",
-    "main.c54c90fe.js.map": "/Howards-Portfolio/static/js/main.c54c90fe.js.map"
+    "static/media/iconmonstr-linkedin-3.svg": "/Howards-Portfolio/static/media/iconmonstr-linkedin-3.27a3f479ca1bbb0ceef19e395081fb94.svg",
+    "main.afa89281.css.map": "/Howards-Portfolio/static/css/main.afa89281.css.map",
+    "main.b1f05230.js.map": "/Howards-Portfolio/static/js/main.b1f05230.js.map"
   },
   "entrypoints": [
-    "static/css/main.16703e3f.css",
-    "static/js/main.c54c90fe.js"
+    "static/css/main.afa89281.css",
+    "static/js/main.b1f05230.js"
   ]
 }
