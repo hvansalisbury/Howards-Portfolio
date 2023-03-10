@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Howards-Portfolio/static/css/main.afa89281.css",
+    "main.css": "/Howards-Portfolio/static/css/main.a8c110b3.css",
     "main.js": "/Howards-Portfolio/static/js/main.b1f05230.js",
     "static/media/WordSearch.png": "/Howards-Portfolio/static/media/WordSearch.d826407e470653092071.png",
     "static/media/WeatherForecast.png": "/Howards-Portfolio/static/media/WeatherForecast.a0682e15945b6f1107c1.png",
@@ -14,11 +14,11 @@
     "static/media/youtube-svgrepo-com.svg": "/Howards-Portfolio/static/media/youtube-svgrepo-com.81b9f73c5765cd8107eb0449650a2160.svg",
     "index.html": "/Howards-Portfolio/index.html",
     "static/media/iconmonstr-linkedin-3.svg": "/Howards-Portfolio/static/media/iconmonstr-linkedin-3.27a3f479ca1bbb0ceef19e395081fb94.svg",
-    "main.afa89281.css.map": "/Howards-Portfolio/static/css/main.afa89281.css.map",
+    "main.a8c110b3.css.map": "/Howards-Portfolio/static/css/main.a8c110b3.css.map",
     "main.b1f05230.js.map": "/Howards-Portfolio/static/js/main.b1f05230.js.map"
   },
   "entrypoints": [
-    "static/css/main.afa89281.css",
+    "static/css/main.a8c110b3.css",
     "static/js/main.b1f05230.js"
   ]
 }
