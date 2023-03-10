@@ -1,12 +1,15 @@
+// imports react
 import React from 'react';
+// imports project function from project.js
 import Project from './Project';
+// imports screenshots of each project
 import quizcr8r from '../assets/images/QuizCr8r.png';
 import blog from '../assets/images/Blog.png';
 import weatherforecast from '../assets/images/WeatherForecast.png';
 import wordsearch from '../assets/images/WordSearch.png';
 import noteskeep from '../assets/images/NotesKeep.png'
 import workdayscheduler from '../assets/images/WorkDayScheduler.png'
-
+// styles object for html
 const styles = {
   section: {
     display: 'flex',
@@ -15,7 +18,7 @@ const styles = {
     paddingBottom: '100px'
   }
 };
-
+// projects array that contains all project objects
 const projects = [
   {
     id: '0',
@@ -72,14 +75,14 @@ const projects = [
     link: 'https://hvansalisbury.github.io/Work-Day-Scheduler/',
   },
 ];
-
+// portfolio function that creates html to be rendered in portfolio state
 function Portfolio() {
-
+  // returns portfolio html and calls the project function from project.js to generate html for each project card
   return (
     <section style={styles.section}>
       <Project projects={projects} />
     </section>
   );
-}
-
+};
+// exports portfolio function
 export default Portfolio;

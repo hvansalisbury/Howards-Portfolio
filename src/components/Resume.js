@@ -1,6 +1,8 @@
+// imports react
 import React from 'react';
-import resume from '../assets/images/Resume.pdf'
-
+// imports resume so user can click and view pdf
+import resume from '../assets/images/Resume.pdf';
+// styles array to be used in html
 const styles = {
   container: {
     display: 'flex',
@@ -29,14 +31,14 @@ const styles = {
     color: 'whitesmoke'
   }
 };
-
+// resume function to render html in resume state
 function Resume() {
   return (
     <section style={styles.section}>
       <div style={styles.container}>
         <h3 style={styles.heading}>Résumé</h3>
         <a href={resume} target="_blank" rel="noopener noreferrer">
-        <button style={styles.button}>Download My Résumé</button>
+          <button style={styles.button}>Download My Résumé</button>
         </a>
       </div>
       <div style={styles.container}>
@@ -65,6 +67,6 @@ function Resume() {
       </div>
     </section>
   );
-}
-
+};
+// exports resume function
 export default Resume;

@@ -1,5 +1,6 @@
+// imports react
 import React from 'react';
-
+// style object for html
 const styles = {
   container: {
     display: 'flex',
@@ -25,12 +26,11 @@ const styles = {
     borderRadius: "5px"
   }
 };
-
-
+// project function to provide html to be rendered in profile state
 function Project(props) {
-
   return (
     <div style={styles.container}>
+      {/* separates the projects prop into individual project objects to be rendered and creates separate html for each project card */}
       {props.projects.map((project, i) =>
         <div className='cards' style={styles.card} key={project.id}>
           <img
@@ -50,6 +50,6 @@ function Project(props) {
       )}
     </div>
   );
-}
-
+};
+// exports project function
 export default Project;

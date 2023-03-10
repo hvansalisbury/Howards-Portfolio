@@ -1,7 +1,10 @@
+// imports react
 import React from 'react';
+// imports profile picture
 import howard from '../assets/images/Howard1.jpg'
-
+// aboutme function
 function AboutMe() {
+  // returns html for aboutme state
   return (
     <div className='d-flex flex-column align-items-center pb-5'>
       <h2>About Me</h2>
@@ -16,6 +19,6 @@ function AboutMe() {
       </p>
     </div>
   );
-}
-
+};
+// exports aboutme function
 export default AboutMe;

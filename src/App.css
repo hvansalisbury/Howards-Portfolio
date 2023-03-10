@@ -1,82 +1,83 @@
+/* universal styling */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
-}
-
+};
+/* black background to body element */
 body {
   background-color: black !important;
-}
-
+};
+/* h1 element has no margins, is white, and a font size of 24 px */
 h1 {
   margin: 0 !important;
   color: #fff;
   font-size: 24px;
-}
-
+};
+/* unordered list has no bottom margin */
 ul {
   margin-bottom: 0 !important;
-}
-
+};
+/* list items are white, have a right margin, rounded border, and left right padding */
 .list-group-item {
   color: #fff !important;
   margin-right: 1em;
   border-radius: 15px !important;
   padding: 0px 5px !important;
-}
-
+};
+/* hover doesn't work for touch devices, changes to pointer, blue, and has a transition time */
 @media (hover: hover) {
   .list-group-item:hover {
     cursor: pointer;
     color: #149fff !important;
     transition: .4s;
-  }
-}
-
+  };
+};
+/* h3 element is blue, auto margins and is 20 px */
 h3 {
   margin: auto;
   color: rgb(66, 171, 231);
   font-size: 20px;
-}
-
+};
+/* label, h2, and p are all whitesmoke */
 label,
 h2,
 p {
   color: whitesmoke;
-}
-
+};
+/* active state has navy text and whitesmoke background */
 .active {
   color: navy !important;
   background: whitesmoke !important;
 }
-
+/* button hover on nontouch devices has a blue white background wtih black text and trasition time */
 @media (hover: hover) {
   button:hover {
     background: linear-gradient(#149fff,whitesmoke);
     color: black;
     transition: .4s;
-  }
-}
-
+  };
+};
+/* clickable image on nontouch devices becomes faded */
 @media (hover: hover) { 
   .image-link:hover {
     opacity: .5;
     transition: .4s;
-  }
-}
-
+  };
+};
+/* unordered list has no left padding */
 ul {
   padding-left: 0 !important;
-}
-
+};
+/* responsive design to make card side bigger at 660px width or less and stacks heading and nav bar*/
 @media screen and (max-width: 660px) {
   .cards {
     width: 100% !important;
-  }
+  };
 
   header {
     flex-direction: column !important;
-  }
-}
+  };
+};
