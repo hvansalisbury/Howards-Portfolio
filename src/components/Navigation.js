@@ -9,13 +9,18 @@ function Navigation(props) {
         },
         list: {
             padding: '0 1em',
+        },
+        activeTab: {
+            color: 'navy',
+            backgroundColor: 'white',
+            borderRadius: '10px',
         }
     };
     // destructures props
     const { currentTab, setCurrentTab } = props;
     // returns html for nav bar
     return (
-        <nav className='p-2'>
+        <nav className='p-2' >
             <ul style={styles.ul} className="d-flex">
                 {/* conditional rendering that changes the active tab to have an active class attribute */}
                 <li style={styles.list} className={currentTab === "about" ? "active-tab list-group-item" : "list-group-item"}
@@ -36,7 +41,7 @@ function Navigation(props) {
                     resume
                 </li>
             </ul>
-        </nav>
+        </nav >
     );
 };
 // exports navigation function
