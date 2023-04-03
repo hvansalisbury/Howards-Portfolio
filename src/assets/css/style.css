@@ -5,8 +5,8 @@
 }
 
 .list-group-item:hover {
-    color: red;
-    background-color: grey;
-    border-radius: 10px;
-    cursor: pointer;
+    color: red !important;
+    background-color: grey !important;
+    border-radius: 10px !important;
+    cursor: pointer !important;
 };
