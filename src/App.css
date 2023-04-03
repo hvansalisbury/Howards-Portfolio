@@ -22,10 +22,10 @@ ul {
 };
 /* list items are white, have a right margin, rounded border, and left right padding */
 .list-group-item {
-  color: #fff !important;
+  color: #fff;
   margin-right: 1em;
-  border-radius: 15px !important;
-  padding: 0px 5px !important;
+  border-radius: 15px;
+  padding: 0px 5px;
 };
 /* hover doesn't work for touch devices, changes to pointer, blue, and has a transition time */
 @media (hover: hover) {
