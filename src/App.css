@@ -51,6 +51,7 @@ p {
 .active {
   color: navy !important;
   background: whitesmoke !important;
+  border-radius: 10px !important;
 }
 /* button hover on nontouch devices has a blue white background wtih black text and trasition time */
 @media (hover: hover) {

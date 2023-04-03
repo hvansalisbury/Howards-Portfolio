@@ -1,5 +1,6 @@
 // importing app.css
 import './App.css';
+import './assets/css/style.css';
 // importing our static header and footer
 import Footer from './components/Footer';
 import Header from './components/Header';
