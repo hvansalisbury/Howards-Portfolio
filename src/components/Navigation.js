@@ -18,20 +18,20 @@ function Navigation(props) {
         <nav className='p-2'>
             <ul style={styles.ul} className="d-flex">
                 {/* conditional rendering that changes the active tab to have an active class attribute */}
-                <li style={styles.list} className={currentTab === "about" ? "active list-group-item" : "list-group-item"}
+                <li style={styles.list} className={currentTab === "about" ? "active-tab list-group-item" : "list-group-item"}
                     // calls set current tab fuction when the tab is clicked
                     onClick={() => setCurrentTab("about")}>
                     about me
                 </li>
-                <li style={styles.list} className={currentTab === "portfolio" ? "active list-group-item" : "list-group-item"}
+                <li style={styles.list} className={currentTab === "portfolio" ? "active-tab list-group-item" : "list-group-item"}
                     onClick={() => setCurrentTab("portfolio")}>
                     portfolio
                 </li>
-                <li style={styles.list} className={currentTab === "contact" ? "active list-group-item" : "list-group-item"}
+                <li style={styles.list} className={currentTab === "contact" ? "active-tab list-group-item" : "list-group-item"}
                     onClick={() => setCurrentTab("contact")}>
                     contact
                 </li>
-                <li style={styles.list} className={currentTab === "resume" ? "active list-group-item" : "list-group-item"}
+                <li style={styles.list} className={currentTab === "resume" ? "active-tab list-group-item" : "list-group-item"}
                     onClick={() => setCurrentTab("resume")}>
                     resume
                 </li>
