@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Howards-Portfolio/static/css/main.f5934026.css",
-    "main.js": "/Howards-Portfolio/static/js/main.f8076773.js",
+    "main.css": "/Howards-Portfolio/static/css/main.18588061.css",
+    "main.js": "/Howards-Portfolio/static/js/main.6264efee.js",
     "static/media/WordSearch.png": "/Howards-Portfolio/static/media/WordSearch.d826407e470653092071.png",
     "static/media/WeatherForecast.png": "/Howards-Portfolio/static/media/WeatherForecast.a0682e15945b6f1107c1.png",
     "static/media/Howard1.jpg": "/Howards-Portfolio/static/media/Howard1.b09bcd6f037b0615e9cb.jpg",
@@ -11,14 +11,14 @@
     "static/media/NotesKeep.png": "/Howards-Portfolio/static/media/NotesKeep.42efc56eff5535cb3028.png",
     "static/media/Resume.pdf": "/Howards-Portfolio/static/media/Resume.5ea7b58c89db8e16cb93.pdf",
     "static/media/github-mark.svg": "/Howards-Portfolio/static/media/github-mark.6fa18895f6e6c7772cab7049f7e05f59.svg",
-    "index.html": "/Howards-Portfolio/index.html",
     "static/media/youtube-svgrepo-com.svg": "/Howards-Portfolio/static/media/youtube-svgrepo-com.dd044bf8744fd318a9456b1fafa2e20b.svg",
+    "index.html": "/Howards-Portfolio/index.html",
     "static/media/iconmonstr-linkedin-3.svg": "/Howards-Portfolio/static/media/iconmonstr-linkedin-3.27a3f479ca1bbb0ceef19e395081fb94.svg",
-    "main.f5934026.css.map": "/Howards-Portfolio/static/css/main.f5934026.css.map",
-    "main.f8076773.js.map": "/Howards-Portfolio/static/js/main.f8076773.js.map"
+    "main.18588061.css.map": "/Howards-Portfolio/static/css/main.18588061.css.map",
+    "main.6264efee.js.map": "/Howards-Portfolio/static/js/main.6264efee.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5934026.css",
-    "static/js/main.f8076773.js"
+    "static/css/main.18588061.css",
+    "static/js/main.6264efee.js"
   ]
 }
