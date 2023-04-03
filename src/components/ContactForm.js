@@ -3,6 +3,17 @@ import React, { useState } from 'react';
 import { validateEmail } from '../utils/helpers';
 // contact form function determines behavior of form during changes, submit, and blurring
 function ContactForm(props) {
+  const styles = {
+    background: {
+      backgroundColor: 'black',
+      height: 'calc(100vh - 154px)',
+    },
+    form: {
+      backgroundColor: 'lightgray',
+      padding: '1em',
+      borderRadius: '1em',
+    },
+  };
   // usestate function for each field default state is blank
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -61,9 +72,9 @@ function ContactForm(props) {
   };
   // returns form html
   return (
-    <div className='d-flex align-items-center flex-column'>
+    <div style={styles.background} className='d-flex align-items-center flex-column'>
       {/* calls handle submit when form is submitted */}
-      <form className=" m-2 form d-flex flex-column w-50" onSubmit={handleSubmit}>
+      <form style={styles.form} className=" m-2 form d-flex flex-column w-50" onSubmit={handleSubmit}>
         <h2 className="text-center ">Contact Me</h2>
         <label>name:</label>
         <input

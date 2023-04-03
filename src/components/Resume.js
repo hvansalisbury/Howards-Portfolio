@@ -14,9 +14,10 @@ const styles = {
   },
   section: {
     display: 'flex',
-    height: '100%',
+    height: 'calc(100vh - 154px)',
     padding: '1em 0px 80px 0px',
     justifyContent: 'center',
+    backgroundColor: 'dimgray',
   },
   button: {
     padding: '4px',

@@ -15,7 +15,8 @@ const styles = {
     display: 'flex',
     justifyContent: 'center',
     maxHeight: '150%',
-    paddingBottom: '100px'
+    paddingBottom: '100px',
+    backgroundColor: 'darkslategray',
   }
 };
 // projects array that contains all project objects

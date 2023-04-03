@@ -1,0 +1,12 @@
+.active {
+    color: navy !important;
+    background: whitesmoke !important;
+    border-radius: 10px !important;
+}
+
+.list-group-item:hover {
+    color: red !important;
+    background-color: grey !important;
+    border-radius: 10px !important;
+    cursor: pointer;
+}

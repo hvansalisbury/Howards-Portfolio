@@ -4,6 +4,9 @@ import React from 'react';
 import howard from '../assets/images/Howard1.jpg'
 // aboutme function
 function AboutMe() {
+  const styles = {
+    
+  };
   // returns html for aboutme state
   return (
     <div className='d-flex flex-column align-items-center pb-5'>
