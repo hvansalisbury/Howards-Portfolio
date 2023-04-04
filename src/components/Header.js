@@ -16,13 +16,16 @@ function Header(props) {
             color: 'navy',
             backgroundColor: 'white',
             borderRadius: '10px',
-        }
+        },
+        background: {
+            backgroundColor: 'grey',
+        },
     };
     // establishes the props that will be used in the navigation function
     const { currentTab, setCurrentTab } = props;
     // returns header html includes props for navigation function
     return (
-        <header className='d-flex justify-content-between align-items-center bg-secondary py-3'>
+        <header className='d-flex justify-content-between align-items-center bg-secondary py-3' style={styles.background}>
             <div className='ps-2'>
                 <h1>Howard's Portfolio</h1>
             </div>
