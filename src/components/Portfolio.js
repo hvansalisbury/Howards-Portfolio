@@ -7,8 +7,9 @@ import quizcr8r from '../assets/images/QuizCr8r.png';
 import blog from '../assets/images/Blog.png';
 import weatherforecast from '../assets/images/WeatherForecast.png';
 import wordsearch from '../assets/images/WordSearch.png';
-import noteskeep from '../assets/images/NotesKeep.png'
-import workdayscheduler from '../assets/images/WorkDayScheduler.png'
+import noteskeep from '../assets/images/NotesKeep.png';
+import workdayscheduler from '../assets/images/WorkDayScheduler.png';
+import recipes from '../assets/images/recipes.png';
 // styles object for html
 const styles = {
   section: {
@@ -74,6 +75,15 @@ const projects = [
     languages: 'React, Bootstrap, CSS',
     repo: 'https://github.com/hvansalisbury/Work-Day-Scheduler',
     link: 'https://hvansalisbury.github.io/Work-Day-Scheduler/',
+  },
+  {
+    id: '6',
+    name: 'Family Recipe Box',
+    info: 'This a database to store all of your family recipes. You can view, add, edit, and delete recipes',
+    picture: recipes,
+    languages: 'React, Bootstrap, CSS',
+    repo: 'https://github.com/hvansalisbury/Family-Recipe-Box',
+    link: 'https://family-recipe-box-8675309.herokuapp.com/',
   },
 ];
 // portfolio function that creates html to be rendered in portfolio state

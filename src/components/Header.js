@@ -4,6 +4,20 @@ import React from 'react';
 import Navigation from './Navigation';
 // header function that renders the header with the nav bar
 function Header(props) {
+    const styles = {
+        header: {
+            margin: '0',
+        },
+        list: {
+            padding: '0 1em',
+        },
+        listactive: {
+            padding: '0 1em',
+            color: 'navy',
+            backgroundColor: 'white',
+            borderRadius: '10px',
+        }
+    };
     // establishes the props that will be used in the navigation function
     const { currentTab, setCurrentTab } = props;
     // returns header html includes props for navigation function
