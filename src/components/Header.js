@@ -18,7 +18,7 @@ function Header(props) {
             borderRadius: '10px',
         },
         background: {
-            backgroundColor: 'grey',
+            backgroundColor: 'grey !important',
         },
     };
     // establishes the props that will be used in the navigation function

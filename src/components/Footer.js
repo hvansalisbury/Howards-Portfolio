@@ -11,7 +11,7 @@ const styles = {
         left: '0',
         bottom: '0',
         width: '100%',
-        backgroundColor: 'grey',
+        backgroundColor: 'grey !important',
     }
 };
 // footer function to generate footer html
