@@ -1,8 +1,12 @@
 {
   "files": {
-    "main.css": "/Howards-Portfolio/static/css/main.54066b48.css",
-    "main.js": "/Howards-Portfolio/static/js/main.0d4f8173.js",
+    "main.css": "/Howards-Portfolio/static/css/main.cb553b53.css",
+    "main.js": "/Howards-Portfolio/static/js/main.064590db.js",
+    "static/media/pexels-karol-d-841228.jpg": "/Howards-Portfolio/static/media/pexels-karol-d-841228.4f542ee41f2f8a970c23.jpg",
     "static/media/recipes.png": "/Howards-Portfolio/static/media/recipes.837128e5caef50373fac.png",
+    "static/media/pexels-danny-meneses-943096.jpg": "/Howards-Portfolio/static/media/pexels-danny-meneses-943096.dd4034764eb9ee217f32.jpg",
+    "static/media/pexels-lumn-316466.jpg": "/Howards-Portfolio/static/media/pexels-lumn-316466.76ca1771649eeb64e1a9.jpg",
+    "static/media/pexels-erkan-utu-302655.jpg": "/Howards-Portfolio/static/media/pexels-erkan-utu-302655.b8ecf82269ba444b1466.jpg",
     "static/media/WordSearch.png": "/Howards-Portfolio/static/media/WordSearch.d826407e470653092071.png",
     "static/media/WeatherForecast.png": "/Howards-Portfolio/static/media/WeatherForecast.a0682e15945b6f1107c1.png",
     "static/media/Howard1.jpg": "/Howards-Portfolio/static/media/Howard1.b09bcd6f037b0615e9cb.jpg",
@@ -15,11 +19,11 @@
     "static/media/youtube-svgrepo-com.svg": "/Howards-Portfolio/static/media/youtube-svgrepo-com.dd044bf8744fd318a9456b1fafa2e20b.svg",
     "index.html": "/Howards-Portfolio/index.html",
     "static/media/iconmonstr-linkedin-3.svg": "/Howards-Portfolio/static/media/iconmonstr-linkedin-3.27a3f479ca1bbb0ceef19e395081fb94.svg",
-    "main.54066b48.css.map": "/Howards-Portfolio/static/css/main.54066b48.css.map",
-    "main.0d4f8173.js.map": "/Howards-Portfolio/static/js/main.0d4f8173.js.map"
+    "main.cb553b53.css.map": "/Howards-Portfolio/static/css/main.cb553b53.css.map",
+    "main.064590db.js.map": "/Howards-Portfolio/static/js/main.064590db.js.map"
   },
   "entrypoints": [
-    "static/css/main.54066b48.css",
-    "static/js/main.0d4f8173.js"
+    "static/css/main.cb553b53.css",
+    "static/js/main.064590db.js"
   ]
 }
