@@ -1,50 +1,35 @@
-// imports react
 import React from 'react';
-// imports resume so user can click and view pdf
 import resume from '../assets/images/Resume.pdf';
-// styles array to be used in html
+import mic from '../assets/images/pexels-erkan-utu-302655.jpg';
+import file from '../assets/images/208-2088186_png-file-report-icon-vector-png.png';
 const styles = {
-  container: {
-    display: 'flex',
-    alignItems: 'center',
-    flexDirection: 'column',
-    width: "30%",
-    flexWrap: 'wrap',
-    color: 'white',
-  },
   section: {
     display: 'flex',
-    height: 'calc(100vh - 154px)',
-    padding: '1em 0px 80px 0px',
-    justifyContent: 'center',
-    backgroundColor: 'dimgray',
+    flexDirection: 'column',
+    alignItems: 'center',
+    height: 'calc(100vh - 150px)',
+    width: '100%',
+    backgroundImage: `url(${mic})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    color: 'whitesmoke',
+    top: '75px',
+    position: 'fixed',
+    left : '0px',
   },
-  button: {
-    padding: '4px',
-    borderRadius: "5px"
-  },
-  list: {
-    listStyleType: 'none',
-    paddingLeft: '0',
-  },
-  heading: {
-    margin: '1em',
-    color: 'whitesmoke'
-  }
 };
-// resume function to render html in resume state
 function Resume() {
   return (
-    <section style={styles.section}>
-      <div style={styles.container}>
-        <h3 style={styles.heading}>Résumé</h3>
+    <section className='resume-section' style={styles.section}>
+      <div className='resume-container'>
+        <h3>Résumé</h3>
         <a href={resume} target="_blank" rel="noopener noreferrer">
-          <button style={styles.button}>Download My Résumé</button>
+          <img src={file} alt='file' className='file-img'/>
         </a>
       </div>
-      <div style={styles.container}>
-        <h3 style={styles.heading}>Skills</h3>
-        <ul style={styles.list}>
+      <div className='skills-container'>
+        <h3>Skills</h3>
+        <ul className='skills-list'>
           <li>HTML</li>
           <li>CSS</li>
           <li>Bootstrap</li>
@@ -69,5 +54,4 @@ function Resume() {
     </section>
   );
 };
-// exports resume function
 export default Resume;

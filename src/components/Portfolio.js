@@ -1,8 +1,5 @@
-// imports react
 import React from 'react';
-// imports project function from project.js
 import Project from './Project';
-// imports screenshots of each project
 import quizcr8r from '../assets/images/QuizCr8r.png';
 import blog from '../assets/images/Blog.png';
 import weatherforecast from '../assets/images/WeatherForecast.png';
@@ -10,26 +7,17 @@ import wordsearch from '../assets/images/WordSearch.png';
 import noteskeep from '../assets/images/NotesKeep.png';
 import workdayscheduler from '../assets/images/WorkDayScheduler.png';
 import recipes from '../assets/images/recipes.png';
-// styles object for html
-const styles = {
-  section: {
-    display: 'flex',
-    justifyContent: 'center',
-    maxHeight: '150%',
-    paddingBottom: '100px',
-    backgroundColor: 'darkslategray',
-  }
-};
-// projects array that contains all project objects
+import keyboard from '../assets/images/pexels-karol-d-841228.jpg';
+
 const projects = [
   {
     id: '0',
-    name: 'Blog',
-    info: 'This is a basic blog site where users can log in, write posts, and comment on other posts.',
-    picture: blog,
+    name: 'Family Recipe Box',
+    info: 'This a database to store all of your family recipes. You can view, add, edit, and delete recipes',
+    picture: recipes,
     languages: 'React, Bootstrap, CSS',
-    repo: 'https://github.com/hvansalisbury/Howards-Portfolio',
-    link: 'https://hvansalisbury.github.io/Howards-Portfolio/',
+    repo: 'https://github.com/hvansalisbury/Family-Recipe-Box',
+    link: 'https://family-recipe-box-8675309.herokuapp.com/',
   },
   {
     id: '1',
@@ -78,22 +66,35 @@ const projects = [
   },
   {
     id: '6',
-    name: 'Family Recipe Box',
-    info: 'This a database to store all of your family recipes. You can view, add, edit, and delete recipes',
-    picture: recipes,
+    name: 'Blog',
+    info: 'This is a basic blog site where users can log in, write posts, and comment on other posts.',
+    picture: blog,
     languages: 'React, Bootstrap, CSS',
-    repo: 'https://github.com/hvansalisbury/Family-Recipe-Box',
-    link: 'https://family-recipe-box-8675309.herokuapp.com/',
+    repo: 'https://github.com/hvansalisbury/Howards-Blog',
+    link: 'https://howards-blog.herokuapp.com/',
   },
 ];
-// portfolio function that creates html to be rendered in portfolio state
+
 function Portfolio() {
-  // returns portfolio html and calls the project function from project.js to generate html for each project card
+  const styles = {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    width: '100%',
+    backgroundImage: `url(${keyboard})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    color: 'whitesmoke',
+    top: '75px',
+    left : '0px',
+    backgroundRepeat: 'no-repeat',
+    backgroundAttachment: 'fixed',
+  };
+
   return (
-    <section style={styles.section}>
+    <section style={styles} className='portfolio-section'>
       <Project projects={projects} />
     </section>
   );
 };
-// exports portfolio function
 export default Portfolio;
