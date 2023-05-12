@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/Howards-Portfolio/static/css/main.54066b48.css",
-    "main.js": "/Howards-Portfolio/static/js/main.0d4f8173.js",
+    "main.css": "/Howards-Portfolio/static/css/main.737b4059.css",
+    "main.js": "/Howards-Portfolio/static/js/main.5c017432.js",
+    "static/media/pexels-karol-d-841228.jpg": "/Howards-Portfolio/static/media/pexels-karol-d-841228.4f542ee41f2f8a970c23.jpg",
     "static/media/recipes.png": "/Howards-Portfolio/static/media/recipes.837128e5caef50373fac.png",
+    "static/media/pexels-danny-meneses-943096.jpg": "/Howards-Portfolio/static/media/pexels-danny-meneses-943096.dd4034764eb9ee217f32.jpg",
+    "static/media/pexels-lumn-316466.jpg": "/Howards-Portfolio/static/media/pexels-lumn-316466.76ca1771649eeb64e1a9.jpg",
+    "static/media/email.png": "/Howards-Portfolio/static/media/email.8f2c6193b9f8efa02615.png",
+    "static/media/pexels-erkan-utu-302655.jpg": "/Howards-Portfolio/static/media/pexels-erkan-utu-302655.b8ecf82269ba444b1466.jpg",
     "static/media/WordSearch.png": "/Howards-Portfolio/static/media/WordSearch.d826407e470653092071.png",
     "static/media/WeatherForecast.png": "/Howards-Portfolio/static/media/WeatherForecast.a0682e15945b6f1107c1.png",
     "static/media/Howard1.jpg": "/Howards-Portfolio/static/media/Howard1.b09bcd6f037b0615e9cb.jpg",
-    "static/media/WorkDayScheduler.png": "/Howards-Portfolio/static/media/WorkDayScheduler.255fb3bef37950cd15dc.png",
     "static/media/QuizCr8r.png": "/Howards-Portfolio/static/media/QuizCr8r.b15dd84fb8b85080952d.png",
     "static/media/Blog.png": "/Howards-Portfolio/static/media/Blog.e8af98e402bd81949104.png",
-    "static/media/NotesKeep.png": "/Howards-Portfolio/static/media/NotesKeep.42efc56eff5535cb3028.png",
-    "static/media/Resume.pdf": "/Howards-Portfolio/static/media/Resume.5ea7b58c89db8e16cb93.pdf",
+    "static/media/Resume.pdf": "/Howards-Portfolio/static/media/Resume.ae898fdefe547ba1cf2b.pdf",
     "static/media/github-mark.svg": "/Howards-Portfolio/static/media/github-mark.6fa18895f6e6c7772cab7049f7e05f59.svg",
     "static/media/youtube-svgrepo-com.svg": "/Howards-Portfolio/static/media/youtube-svgrepo-com.dd044bf8744fd318a9456b1fafa2e20b.svg",
     "index.html": "/Howards-Portfolio/index.html",
     "static/media/iconmonstr-linkedin-3.svg": "/Howards-Portfolio/static/media/iconmonstr-linkedin-3.27a3f479ca1bbb0ceef19e395081fb94.svg",
-    "main.54066b48.css.map": "/Howards-Portfolio/static/css/main.54066b48.css.map",
-    "main.0d4f8173.js.map": "/Howards-Portfolio/static/js/main.0d4f8173.js.map"
+    "main.737b4059.css.map": "/Howards-Portfolio/static/css/main.737b4059.css.map",
+    "main.5c017432.js.map": "/Howards-Portfolio/static/js/main.5c017432.js.map"
   },
   "entrypoints": [
-    "static/css/main.54066b48.css",
-    "static/js/main.0d4f8173.js"
+    "static/css/main.737b4059.css",
+    "static/js/main.5c017432.js"
   ]
 }

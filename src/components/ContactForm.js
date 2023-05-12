@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { validateEmail } from '../utils/helpers';
+import emailjs from '@emailjs/browser';
 import write from '../assets/images/pexels-lumn-316466.jpg';
 function ContactForm(props) {
   const styles = {
@@ -17,6 +18,9 @@ function ContactForm(props) {
       left: '0px',
     },
   };
+
+  const form = useRef();
+
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -56,13 +60,20 @@ function ContactForm(props) {
       setErrorMessage('Email is invalid');
       return;
     };
+
+    emailjs.sendForm('service_cb7dglq', 'template_7via25l', form.current, 'ypMBh8x68lub08YnS')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
     setName('');
     setEmail('');
     setMessage('');
   };
   return (
     <div style={styles.background} className='contact-me'>
-      <form className="contact-form" onSubmit={handleSubmit}>
+      <form ref={form} className="contact-form" onSubmit={handleSubmit}>
         <h2 className="text-center">Contact Me</h2>
         <div className='formline'>
           <label>name:</label>
@@ -93,7 +104,7 @@ function ContactForm(props) {
         <div className='formline'>
           <label>message:</label>
           <textarea
-            rows="5"
+            rows="10"
             value={message}
             name="message"
             type="text"
@@ -111,6 +122,10 @@ function ContactForm(props) {
           <p className='error-text'>{errorMessage}</p>
         </div>
       )}
+      <a href="mailto: vansal51@yahoo.com">
+        vansal51@yahoo.com
+      </a>
+      
     </div>
   );
 };

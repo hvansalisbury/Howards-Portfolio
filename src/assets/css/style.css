@@ -54,10 +54,14 @@
 
 body {
     margin: 0;
-    font-family: Trebuchet MS,Lucida Sans Unicode,Lucida Grande,Lucida Sans,Arial,sans-serif;
+    font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif;
 }
 
-h1, h2, h3, p, ul {
+h1,
+h2,
+h3,
+p,
+ul {
     margin: 0;
 }
 
@@ -66,7 +70,8 @@ h2 {
     margin-top: 10px;
 }
 
-header, footer {
+header,
+footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -85,7 +90,7 @@ header {
 
 footer {
     justify-content: center;
-    background: linear-gradient( #d3d3d3, #323232);
+    background: linear-gradient(#d3d3d3, #323232);
     position: fixed;
     left: 0;
     bottom: 0;
@@ -94,9 +99,10 @@ footer {
 
 footer a {
     margin: 0 16px;
+    position: relative;
 }
 
-footer a:hover {
+footer a:hover img {
     opacity: 50%;
     transition: .4s;
 }
@@ -123,7 +129,7 @@ h1 {
     align-items: center;
     width: 100%;
     margin: 0;
-    padding: 75px 0;    
+    padding: 75px 0;
     background: linear-gradient(black, gray, black);
 
 }
@@ -195,7 +201,7 @@ h1 {
     align-items: center;
     width: 50%;
     margin: 16px 0;
-    padding: 0 1em;    
+    padding: 0 1em;
     background-color: whitesmoke;
     border-radius: 10px;
     border: 2px solid black;
@@ -244,7 +250,7 @@ h1 {
 }
 
 .form-button {
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
 
 .skills-list {
@@ -287,4 +293,24 @@ h3 {
 
 #root {
     width: 100%;
+}
+
+.img-desc {
+    position: absolute;
+    top: -20px;
+    background: whitesmoke;
+    color: black;
+    visibility: hidden;
+    opacity: 100%;
+    padding: 2px;
+}
+
+.img-wrap:hover .img-desc {
+    visibility: visible;
+    opacity: 100%;
+}
+
+.email-hover {
+    right:-67px;
+    z-index: 9999;
 }

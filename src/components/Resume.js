@@ -15,7 +15,7 @@ const styles = {
     color: 'whitesmoke',
     top: '75px',
     position: 'fixed',
-    left : '0px',
+    left: '0px',
   },
 };
 function Resume() {
@@ -24,7 +24,7 @@ function Resume() {
       <div className='resume-container'>
         <h3>Résumé</h3>
         <a href={resume} target="_blank" rel="noopener noreferrer">
-          <img src={file} alt='file' className='file-img'/>
+          <img src={file} alt='file' className='file-img' />
         </a>
       </div>
       <div className='skills-container'>
