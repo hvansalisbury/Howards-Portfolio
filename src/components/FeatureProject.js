@@ -9,7 +9,7 @@ function Project(props) {
             className="video"
             src={featureProject.video}
             allow='autoplay; encrypted-media'
-            allowfullscreen
+            allowFullScreen
           />
           <h4>{featureProject.name}</h4>
           <p>{featureProject.info}</p>
