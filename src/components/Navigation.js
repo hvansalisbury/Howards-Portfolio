@@ -3,10 +3,8 @@ import '../assets/css/style.css';
 function Navigation(props) {
     const styles = {
        list: {
-            padding: '0 1em',
         },
         listactive: {
-            padding: '0 1em',
             color: 'royalblue',
             backgroundColor: 'whitesmoke',
             borderRadius: '10px',
