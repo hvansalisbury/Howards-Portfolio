@@ -424,11 +424,10 @@ h3 {
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        /* height: 55px; */
     }
 
     h1 {
-        font-size: 1.5em;
+        font-size: 2em;
     }
 
     nav ul {
@@ -436,7 +435,7 @@ h3 {
     }
 
     nav ul li {
-        font-size: .8em;
+        font-size: 1em;
         padding: 0 5px;
     }
 
@@ -531,3 +530,23 @@ h3 {
     }    
 }
 
+@media screen and (max-width: 310px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    nav ul {
+        justify-content: space-between;
+    }
+
+    nav ul li {
+        font-size: .8em;
+        padding: 0 5px;
+    }
+}
