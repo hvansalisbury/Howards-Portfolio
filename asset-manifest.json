@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Howards-Portfolio/static/css/main.d5825507.css",
-    "main.js": "/Howards-Portfolio/static/js/main.8f1d5d82.js",
+    "main.js": "/Howards-Portfolio/static/js/main.a0d2b522.js",
     "static/media/pexels-karol-d-841228.jpg": "/Howards-Portfolio/static/media/pexels-karol-d-841228.4f542ee41f2f8a970c23.jpg",
     "static/media/pexels-danny-meneses-943096.jpg": "/Howards-Portfolio/static/media/pexels-danny-meneses-943096.dd4034764eb9ee217f32.jpg",
     "static/media/pexels-lumn-316466.jpg": "/Howards-Portfolio/static/media/pexels-lumn-316466.76ca1771649eeb64e1a9.jpg",
@@ -19,10 +19,10 @@
     "index.html": "/Howards-Portfolio/index.html",
     "static/media/iconmonstr-linkedin-3.svg": "/Howards-Portfolio/static/media/iconmonstr-linkedin-3.27a3f479ca1bbb0ceef19e395081fb94.svg",
     "main.d5825507.css.map": "/Howards-Portfolio/static/css/main.d5825507.css.map",
-    "main.8f1d5d82.js.map": "/Howards-Portfolio/static/js/main.8f1d5d82.js.map"
+    "main.a0d2b522.js.map": "/Howards-Portfolio/static/js/main.a0d2b522.js.map"
   },
   "entrypoints": [
     "static/css/main.d5825507.css",
-    "static/js/main.8f1d5d82.js"
+    "static/js/main.a0d2b522.js"
   ]
 }
